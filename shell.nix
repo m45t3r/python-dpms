@@ -16,7 +16,6 @@ in mkShell {
     xorg.libX11
     xorg.libXext
   ];
-  LD_LIBRARY_PATH="${libpulseaudio}/lib";
 
   shellHook = ''
     SOURCE_DATE_EPOCH=$(date +%s)
