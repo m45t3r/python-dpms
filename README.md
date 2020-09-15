@@ -1,3 +1,17 @@
+# This project is abandoned
+
+[`python-xlib`](https://github.com/python-xlib/python-xlib) has DPMS support
+now. It also doesn't need Xlib libraries installed to compile it, that is
+always a plus.
+
+If you want to continue using this fork or the original project, it is fine,
+but remember that there is no license so the usage of this code in a project
+is unclear. `python-xlib` is properly licensed by LGPL v.2.1 or later:
+<https://github.com/python-xlib/python-xlib/blob/master/LICENSE>.
+
+Here is an example on how to use DPMS with `python-xlib`:
+<https://github.com/python-xlib/python-xlib/blob/733556f8b40b2d2643830ac193a0ffdd6560dbfc/examples/dpms.py>.
+
 # About
 
 [![Test](https://github.com/thiagokokada/python-dpms/workflows/Test/badge.svg)](https://github.com/thiagokokada/python-dpms)
